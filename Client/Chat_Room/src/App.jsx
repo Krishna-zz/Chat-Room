@@ -1,11 +1,15 @@
 import ChatRoom from "./Chatroom"
+import React from "react";
+
 
 function App() {
   
 
   return (
     <>
-     <ChatRoom/>
+        <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+            <ChatRoom/>
+        </div>
     </>
   )
 }
